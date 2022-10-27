@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  review: MyText
+  rating: 1
+  accuracy: 1
+  communication: 1
+  cleanliness: 1
+  location: 1
+  check_in: 1
+  value: 1
+  user: one
+  listing: one
+
+two:
+  review: MyText
+  rating: 1
+  accuracy: 1
+  communication: 1
+  cleanliness: 1
+  location: 1
+  check_in: 1
+  value: 1
+  user: two
+  listing: two

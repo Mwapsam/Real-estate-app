@@ -31,4 +31,6 @@ end
 # Application specific gems
 gem 'vite_rails'
 gem 'devise'
+gem 'bootstrap', '~> 5.1.3'
+gem "image_processing", ">= 1.2"
 
