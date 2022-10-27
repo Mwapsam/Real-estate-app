@@ -1,0 +1,3 @@
+Listing.create(title: 'Hello World', description: 'Description for Hello  workers', num_guests: 10, num_baths: 1, num_beds: 1, price: 10000)
+Listing.create(title: 'Hello World 1', description: 'Description for Hello  workers', num_guests: 10, num_baths: 1, num_beds: 1, price: 10000)
+Listing.create(title: 'Hello World 2', description: 'Description for Hello  workers', num_guests: 10, num_baths: 1, num_beds: 1, price: 10000)
