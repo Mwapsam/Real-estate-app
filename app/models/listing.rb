@@ -1,18 +1,10 @@
 class Listing < ApplicationRecord
     has_many_attached :photos
     has_many_attached :thumbnails
-    has_many :reviews,
-      foreign_key: :listing_id,
-      class_name: 'Review'
-    belongs_to :host,
-      foreign_key: :host_id,
-      class_name: 'User'
-    has_many :reviewers,
-      through: :reviews,
-      source: :user
-    has_many :bookings,
-      foreign_key: :listing_id,
-      class_name: 'Booking'
+    has_many :reviews, foreign_key: :listing_id, class_name: 'Review'
+    # belongs_to :host, foreign_key: :host_id, class_name: 'User'
+    has_many :reviewers, through: :reviews, source: :user
+    has_many :bookings, foreign_key: :listing_id, class_name: 'Booking'
   
     def self.in_bounds(bounds)
       bounds = JSON.parse(bounds)

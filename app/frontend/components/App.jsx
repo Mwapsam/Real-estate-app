@@ -1,10 +1,9 @@
 import React from 'react';
+import NewList from './listings/NewList';
 
 const App = () => {
   return (
-    <div>
-      Listings
-    </div>
+    <NewList />
   );
 };
 
